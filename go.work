@@ -4,7 +4,7 @@ use (
 	./
 	./contrib
 	./envoy
-	./ratelimit
 	./examples/dyplomat
+	./ratelimit
 	./xdsmatcher
 )

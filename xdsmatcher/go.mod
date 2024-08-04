@@ -2,10 +2,7 @@ module github.com/envoyproxy/go-control-plane/xdsmatcher
 
 go 1.21
 
-replace (
-	github.com/envoyproxy/go-control-plane => ../
-	github.com/envoyproxy/go-control-plane/envoy => ../envoy
-)
+replace github.com/envoyproxy/go-control-plane/envoy => ../envoy
 
 require (
 	github.com/cncf/xds/go v0.0.0-20240423153145-555b57ec207b

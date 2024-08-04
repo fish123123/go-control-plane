@@ -3,6 +3,7 @@ module github.com/envoyproxy/go-control-plane/examples/dyplomat
 go 1.21
 
 replace (
+	github.com/envoyproxy/go-control-plane => ../..
 	github.com/envoyproxy/go-control-plane/envoy => ../../envoy
 	github.com/envoyproxy/go-control-plane/ratelimit => ../../ratelimit
 )
@@ -72,5 +73,3 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
-
-replace github.com/envoyproxy/go-control-plane => ../..
